@@ -26,5 +26,9 @@ Still on the third part, subtitle 'Create Sprites From Scripts', writter recomen
 https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/static_typing.html
 https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_styleguide.html
 
-Then it mentions groups in Godot
+Then there are mentions about groups in Godot:
 https://docs.godotengine.org/en/stable/getting_started/step_by_step/scripting_continued.html#groups
+
+The author then leaves to the reador to implement _create_sprite(), which I thought it was kinda nice! Fun challenge. 
+Before finishing this up, we need a mock up GUI. 
+Just gonna add FireCod to a Control Node's Label? Maybe it will make sense later
