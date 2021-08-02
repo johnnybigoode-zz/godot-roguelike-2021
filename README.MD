@@ -9,3 +9,5 @@ https://github.com/Bozar/GodotRoguelikeTutorial/wiki/02
 Now we're gonna do some project customization within Godot. Starting with a custom folder step and moving initial resources to the respective folder.
 Let's create the MainScene, 
 And set project's settings, including things I don't need, like Low Processor Mode
+Icon was added as a sprite, which wasn't mentioned in the tutorial.
+Add export settings, installing some extra features, now we can create a 26mg exe file that does nothing!
