@@ -7,3 +7,5 @@ The initial step is simply creating the project, recomendation for a VS Code ext
 https://github.com/Bozar/GodotRoguelikeTutorial/wiki/02
 
 Now we're gonna do some project customization within Godot. Starting with a custom folder step and moving initial resources to the respective folder.
+Let's create the MainScene, 
+And set project's settings, including things I don't need, like Low Processor Mode
