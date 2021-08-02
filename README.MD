@@ -11,3 +11,9 @@ Let's create the MainScene,
 And set project's settings, including things I don't need, like Low Processor Mode
 Icon was added as a sprite, which wasn't mentioned in the tutorial.
 Add export settings, installing some extra features, now we can create a 26mg exe file that does nothing!
+
+https://github.com/Bozar/GodotRoguelikeTutorial/wiki/03
+
+First add font and tilemap. 
+Then create the proper node for it. 
+Here we did everything before 'change PC's color and save it as a packed scene.'
