@@ -37,4 +37,7 @@ https://github.com/Bozar/GodotRoguelikeTutorial/wiki/04
 
 Next type involves input map edits on the project
 But it's really weird. The tutorial will guide you to making something that won't work properly, and I managed to get it working by passing the create sprite player into the process function of init world, but when I try to move the character around, he snaps back to the initial place? How odd. 
-
+These steps felt weird as a whole, but something was working in the end. 
+Godot seems to frown when referencing siblings directly, and according to docs:
+>If a scene must interact with an external context, experienced developers recommend the use of Dependency Injection.
+While I dislike dependency injection, let's pretend it's not there for now
