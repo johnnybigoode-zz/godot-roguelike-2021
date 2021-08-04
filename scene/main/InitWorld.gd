@@ -6,13 +6,15 @@ const Player := preload("res://sprite/PC.tscn")
 
 var _new_GroupName := preload("res://library/GroupName.gd").new()
 var _new_ConvertCoord := preload("res://library/ConvertCoord.gd").new()
+var _initialized: bool = false
 
+func _process(_delta) -> void:
+    if not _initialized:
+        _initialized = true
+        _create_sprite(Player, _new_GroupName.PC, 1, 1)
 
-func _ready() -> void:
-	_create_sprite(Player, _new_GroupName.PC, 1, 1)
-	_create_sprite(Player, _new_GroupName.PC, 2, 2)
-	_create_sprite(Player, _new_GroupName.PC, 3, 3)
-
+#func _ready() -> void:
+#	_create_sprite(Player, _new_GroupName.PC, 1, 1)
 
 func _create_sprite(
     prefab: PackedScene, group: String, x: int, y: int, x_offset: int = 0, y_offset: int = 0

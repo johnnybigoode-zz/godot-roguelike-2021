@@ -32,3 +32,9 @@ https://docs.godotengine.org/en/stable/getting_started/step_by_step/scripting_co
 The author then leaves to the reador to implement _create_sprite(), which I thought it was kinda nice! Fun challenge. 
 Before finishing this up, we need a mock up GUI. 
 Just gonna add FireCod to a Control Node's Label? Maybe it will make sense later
+
+https://github.com/Bozar/GodotRoguelikeTutorial/wiki/04
+
+Next type involves input map edits on the project
+But it's really weird. The tutorial will guide you to making something that won't work properly, and I managed to get it working by passing the create sprite player into the process function of init world, but when I try to move the character around, he snaps back to the initial place? How odd. 
+
