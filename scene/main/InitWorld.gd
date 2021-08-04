@@ -1,5 +1,7 @@
 extends Node2D
 
+signal sprite_created(new_sprite)
+
 const Player := preload("res://sprite/PC.tscn")
 
 var _new_GroupName := preload("res://library/GroupName.gd").new()
@@ -20,3 +22,4 @@ func _create_sprite(
 	_new_Sprite.add_to_group(group)
 	
 	add_child(_new_Sprite)
+	emit_signal("sprite_created", _new_Sprite)
