@@ -12,8 +12,8 @@ func _unhandled_input(event: InputEvent) -> void:
     print("pc: {0}".format([_pc]))
     
     var source: Array = _new_ConvertCoord.vector_to_array(_pc.position)
-    var x: int = 0
-    var y: int = 0
+    var x: int = source[0]
+    var y: int = source[1]
     
     if event.is_action_pressed(_new_InputName.MOVE_LEFT):
         x -= 1
